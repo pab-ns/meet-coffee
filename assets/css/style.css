@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;   
+  }
+
+body{
+    text-align: center;
+    color: #000f08;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 70px;
+}  
+
+img{border-radius: 3px;}
+
+a{text-decoration: none;}
+
+.text-light{
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.25em;
+  }
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover{color: #666;}
+
+nav {
+    text-align: left;
+    padding: 1rem 4rem;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    margin-bottom: 2%;
+    background: #000;
+  }
+  
+  nav ul {list-style-type: none;}
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: middle;
+  }
+
+svg{
+    fill: #fff;
+    width: 2rem;
+}
+
+.icono {width: 2rem;}
+
+  
+  .hero{
+      background-image: url('../img/imagenes/bg-hero.png');
+      background-repeat: no-repeat, repeat;
+      background-size: cover;
+      /* position: relative; */
+      padding: 8.25rem 3.125rem;
+  }
+
+  .hero h1, .hero h2{
+      color: #fff;
+      text-shadow: 2px 2px 2px rgb(0 0 0 / 50%);
+      text-align: right;
+    }
+
+    #ubicacion{
+        margin-top: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+    }
+
+    #ubicacion img{
+        width: 50%;
+    }
+
+    #prox-charla{
+        margin-top: 50px;
+        padding: 50px;
+        background-color: #A4452C;
+        white-space: nowrap;
+    }
+
+   .centrado{
+    width: 75%;
+    margin: 0 auto;
+    color: #fff;
+  }
+
+  .speaker, .prox-charla{
+    display: inline-block;
+  }
+
+  .speaker{
+    width: 25%;
+    vertical-align: middle;
+  }
+
+  .prox-charla  {
+    width: 72.5%;
+    vertical-align: middle;
+    margin-left: 2.5%;
+    white-space: normal;
+    text-align: left;
+  }
+
+
+#eventos{margin-top: 50px;}
+
+#eventos h2{margin-bottom: 50px;}
+
+  .eventos{display: inline-block;}
+
+  .eventos div{width: 30%;}
+
+  .eventos div img{width: 75%;}
+
+
+  footer{
+      margin-top: 50px;
+      background-color: #000;
+      color: #fff;
+      padding: 25px;
+    }
+
+  footer i {
+    margin: 0 0.25em 0.5em 0.25em;
+    color: #fff;
+    font-size: 4rem !important;
+  }
+
+
+
+
+/* EVENTO SIMPOSIO VEGAN */
+.evento-vegan{
+    margin: auto;
+    width: 50%;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.evento-vegan img{
+    width: 100%;
+    margin: 25px 0;
+}
+
+.evento-vegan p{
+    font-size: .9rem;
+}
+
+.evento-vegan h1{
+    font-size: 2rem;
+}
+
+
+
